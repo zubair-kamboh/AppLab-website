@@ -1,0 +1,592 @@
+/** @format */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.navbar {
+  height: 20vh;
+  padding: 0;
+  background: white !important;
+}
+.navbar-nav {
+  margin-left: auto;
+  padding-right: 50px;
+}
+.Rectangle_1 {
+  background-color: rgb(37, 0, 249) !important;
+  border-radius: 45px;
+  padding: 6px 22px;
+}
+
+.nav-links a {
+  margin-left: 25px;
+}
+.Rectangle_2_copy {
+  color: rgb(254, 170, 37);
+}
+.editor_choice_app p {
+  margin: 0;
+  margin-left: 8px;
+}
+.editor_choice_app {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 18px;
+  background-color: rgb(226, 234, 237);
+}
+.Best_app_for_your_modern_lifestyle {
+  font-size: 60px;
+  font-family: "Poppins";
+  color: rgb(36, 47, 81);
+  font-weight: bold;
+}
+.Increase_productivity_with_a_simple_to_do_app__ {
+  font-size: 18px;
+  font-family: "Poppins";
+  color: rgb(97, 99, 104);
+}
+.watch_btn {
+  background: none !important;
+  border: 1px solid rgb(37, 0, 249);
+  color: rgb(37, 0, 249);
+}
+
+.watch_btn:hover {
+  background: rgb(37, 0, 249) !important;
+  border: none;
+  color: white;
+}
+.hero-img {
+  height: 520px;
+}
+
+main {
+  height: 80vh;
+}
+
+.bottom-layer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+}
+.bottom-layer img {
+  max-width: 100%;
+}
+.Trusted_by_companies_like {
+  font-size: 16px;
+  font-family: "Poppins";
+  color: rgb(36, 47, 81);
+}
+
+.company_parners {
+  margin: 98px 0px !important;
+}
+.Awesome_apps_features {
+  font-size: 36px;
+  font-family: "Poppins";
+  color: rgb(36, 47, 81);
+  font-weight: bold;
+  line-height: 1.278;
+}
+.Increase_productivity_with_a_simple_to_do_app__ {
+  font-size: 16px;
+  font-family: "Poppins";
+  color: rgb(97, 99, 104);
+  line-height: 1.625;
+}
+.Fast_Performance {
+  font-size: 20px;
+  font-family: "Poppins";
+  color: rgb(245, 87, 103);
+}
+.Get_your_blood_tests_delivered_at_home_collect_ {
+  font-size: 16px;
+  font-family: "Poppins";
+  color: rgb(97, 99, 104);
+  line-height: 1.625;
+}
+.Prototyping {
+  font-size: 20px;
+  font-family: "Poppins";
+  color: rgb(37, 99, 255);
+  font-weight: bold;
+}
+.Vector_Editing {
+  font-size: 20px;
+  font-family: "Poppins";
+  color: rgb(64, 151, 95);
+  font-weight: bold;
+  line-height: 2.9;
+}
+.app-features-sec {
+  margin: 100px 0px !important;
+}
+.app-feature-img {
+  height: 600px;
+}
+
+.hr {
+  width: 1px;
+  height: 147px;
+  background-color: rgb(75, 74, 72);
+  opacity: 0.388;
+}
+.Smart_jackpots_that_you_may_love_this_anytime__ {
+  font-size: 40px;
+  font-family: "Poppins";
+  color: rgb(36, 47, 81);
+  font-weight: bold;
+}
+.The_rise_of_mobile_devices_transforms_the_way_w {
+  font-size: 16px;
+  font-family: "Poppins";
+  color: rgb(97, 99, 104);
+  line-height: 1.625;
+}
+.bigar_reward_sec {
+  margin: 98px 0px;
+}
+.Automatic_Payouts {
+  font-size: 20px;
+  font-family: "Poppins";
+  color: rgb(245, 87, 103);
+  font-weight: bold;
+  line-height: 2;
+}
+.Get_your_blood_tests_delivered_at_home_collect_ {
+  font-size: 16px;
+  font-family: "Poppins";
+  color: rgb(97, 99, 104);
+  line-height: 1.625;
+}
+.Network_Effect {
+  font-size: 20px;
+  font-family: "Poppins";
+  color: rgb(37, 99, 255);
+  font-weight: bold;
+  line-height: 2;
+}
+.Bigger_Rewards_Method {
+  font-size: 20px;
+  font-family: "Poppins";
+  color: rgb(64, 151, 95);
+  font-weight: bold;
+  line-height: 2;
+}
+.Designed___built_by_the_latest_code_integration {
+  font-size: 36px;
+  font-family: "Poppins";
+  color: rgb(36, 47, 81);
+  font-weight: bold;
+  line-height: 1.278;
+}
+.The_rise_of_mobile_devices_transforms_the_way_w {
+  font-size: 16px;
+  font-family: "Poppins";
+  color: rgb(97, 99, 104);
+  line-height: 1.625;
+}
+
+.skills_div {
+  max-width: 50% !important;
+}
+.Why_you_should_choose_our_app {
+  font-size: 36px;
+  font-family: "Poppins";
+  color: rgb(36, 47, 81);
+  font-weight: bold;
+  line-height: 1.278;
+}
+.The_rise_of_mobile_devices_transforms_the_way_w {
+  font-size: 16px;
+  font-family: "Poppins";
+  color: rgb(97, 99, 104);
+  line-height: 1.625;
+}
+.App_Development {
+  font-size: 20px;
+  font-family: "Poppins";
+  color: rgb(36, 47, 81);
+  font-weight: bold;
+  line-height: 2.9;
+}
+.Get_your_blood_tests_delivered_at_home_collect_ {
+  font-size: 16px;
+  font-family: "Poppins";
+  color: rgb(97, 99, 104);
+  line-height: 1.625;
+}
+.Ultimate_features_that_we_built {
+  font-size: 36px;
+  font-family: "Poppins";
+  color: rgb(36, 47, 81);
+  font-weight: bold;
+  line-height: 1.278;
+}
+.The_rise_of_mobile_devices_transforms_the_way_w {
+  font-size: 16px;
+  font-family: "Poppins";
+  color: rgb(97, 99, 104);
+  line-height: 1.625;
+}
+.ultimate-feature-image {
+  max-width: 90%;
+  height: auto;
+}
+
+/* Pricing Section */
+.Get_awesome_features__without_extra_charges {
+  font-size: 36px;
+  font-family: "Poppins";
+  color: rgb(36, 47, 81);
+  font-weight: bold;
+  line-height: 1.278;
+}
+.The_rise_of_mobile_devices_transforms_the_way_w {
+  font-size: 16px;
+  font-family: "Poppins";
+  color: rgb(97, 99, 104);
+  line-height: 1.625;
+}
+._0 {
+  font-size: 60px;
+  font-family: "Poppins";
+  color: rgb(36, 47, 81);
+  font-weight: bold;
+  line-height: 0.967;
+  text-align: center;
+}
+.__month {
+  font-size: 18px;
+  font-family: "Poppins";
+  color: rgb(153, 156, 165);
+  line-height: 1.556;
+  text-align: center;
+}
+.businer-class {
+  background-image: url(./images/business-class-bg.png);
+}
+.pricing {
+  margin-left: auto;
+}
+.Business_Class {
+  font-size: 20px;
+  font-family: "Poppins";
+  color: rgb(36, 47, 81);
+  font-weight: bold;
+  line-height: 1.4;
+  text-align: center;
+}
+.For_small_teams_or_office {
+  font-size: 16px;
+  font-family: "Poppins";
+  color: rgb(153, 156, 165);
+  line-height: 1.75;
+  text-align: center;
+}
+.Drag___Drop_Builder_1_000_s_of_Templates_Blog_S {
+  font-size: 16px;
+  font-family: "Poppins";
+  color: rgb(153, 156, 165);
+  line-height: 3;
+  text-align: center;
+}
+.Rectangle_5 {
+  border-radius: 9px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 3.837px 54.866px 62px 0px rgba(144, 163, 177, 0.18);
+}
+.Or_Start_14_days_trail {
+  font-size: 16px;
+  font-family: "Poppins";
+  color: rgb(37, 0, 249);
+  line-height: 1.75;
+  text-decoration: none;
+}
+.right-pricing {
+  margin: 0 auto 0 0;
+}
+
+.toggle {
+  position: relative;
+  width: 279px;
+  height: 53px;
+}
+.toggle input[type="checkbox"] {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  -webkit-appearance: none;
+  background: white;
+  border-radius: 30px;
+  border: 1px solid rgba(97, 99, 104, 0.749);
+  outline: none;
+  box-shadow: inset 1px 1px 2px 2px rgb(0, 0, 0, 0.3);
+}
+.toggle input[type="checkbox"]::before {
+  position: absolute;
+  content: "Monthly";
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+  color: white;
+}
+.anual {
+  width: 50%;
+  height: 100%;
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  background: rgb(37, 0, 249);
+
+  border-radius: 30px;
+  cursor: pointer;
+  transition: 0.3s all ease;
+  z-index: 0;
+}
+.toggle input[type="checkbox"]::after {
+  position: absolute;
+  content: "Annual";
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  left: 50%;
+  cursor: pointer;
+  z-index: 1;
+}
+
+.toggle input:checked[type="checkbox"] + .anual {
+  transform: translateX(100%);
+}
+
+.toggle input:checked[type="checkbox"]:before {
+  color: black;
+}
+
+.toggle input:checked[type="checkbox"]::after {
+  color: white;
+}
+
+/* MEET cLIENT SATISFACTION */
+.meet-client-satisfaction,
+.faq {
+  margin: 90px 0px !important;
+}
+.Meet_Client_Satisfaction_by_using_product {
+  font-size: 40px;
+  font-family: "Poppins";
+  color: rgb(36, 47, 81);
+  font-weight: bold;
+  line-height: 1.25;
+}
+.The_rise_of_mobile_devices_transforms_the_way_w {
+  font-size: 16px;
+  font-family: "Poppins";
+  color: rgb(97, 99, 104);
+  line-height: 1.625;
+}
+
+/* FAQ SEDTION */
+
+.Leverage_agile_frameworks_to_provide_a_robust_s {
+  font-size: 16px;
+  font-family: "Poppins";
+  color: rgb(97, 99, 104);
+  line-height: 1.625;
+}
+.How_to_contact_with_riders_emergency_ {
+  font-size: 20px;
+  font-family: "Poppins";
+  color: rgb(36, 47, 81);
+  font-weight: bold;
+  line-height: 2.9;
+}
+
+.contact_with_riders {
+  background-color: rgb(245, 247, 250);
+  width: 945px;
+  height: auto;
+  margin: 0 auto;
+  padding: 30px 22px;
+}
+.faq-divs {
+  background-color: rgb(245, 247, 250);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 945px;
+  height: auto;
+  margin: 8px auto;
+  padding: 0px 22px;
+}
+.faq-divs figure {
+  margin: 0 !important;
+}
+.faq-divs h3 {
+  margin: 0 !important;
+}
+
+/* Download our app */
+.Download_our_App_now__ {
+  font-size: 48px;
+  font-family: "Poppins";
+  color: rgb(36, 47, 81);
+  font-weight: bold;
+  line-height: 1.208;
+}
+.The_rise_of_mobile_devices_transforms_the_way_w {
+  font-size: 16px;
+  font-family: "Poppins";
+  color: rgb(97, 99, 104);
+  line-height: 1.625;
+}
+
+/* footer */
+
+footer {
+  background-color: rgb(9, 20, 46);
+  width: 100%;
+  height: 567px;
+}
+
+.Copyright©_Arifur_Rahman_Tushar_2019__All_right {
+  font-size: 14px;
+  font-family: "Poppins";
+  color: rgba(255, 255, 255, 0.212);
+  line-height: 3.143;
+}
+.footer-ul li a {
+  font-size: 16px;
+  font-family: "Poppins";
+  color: rgb(255, 255, 255);
+
+  margin: 40px 0px;
+}
+
+/* MEDIA QUERIES FOR MOBILES AND LAPTOPS */
+
+/* For Laptop Screens */
+
+@media (max-width: 768px) {
+  main {
+    margin: 60px 0px;
+    height: auto;
+  }
+  .hero_text {
+    text-align: center;
+  }
+  .editor_choice_app {
+    margin: 0px auto;
+  }
+  main h1 {
+    font-size: 30px !important;
+    margin: 4px 0px;
+  }
+  main p {
+    font-size: 16px !important;
+    margin: 4px 0px;
+  }
+  main button {
+    font-size: 12px !important;
+    margin: 4px 0px;
+  }
+  .hero_big_img {
+    margin: 17px 0px;
+  }
+  .hero_big_img figure img {
+    height: 390px !important;
+  }
+  .navbar-nav {
+    background: rgb(245, 247, 250);
+    padding-right: 0px;
+    padding-bottom: 70px;
+    text-align: center;
+  }
+  .navbar-toggler:focus {
+    box-shadow: none;
+  }
+  .bottom-layer {
+    position: absolute;
+    bottom: -10%;
+  }
+
+  /* companies partner */
+
+  .company_parners {
+    margin: 20px 0px !important;
+  }
+  .company_parners .company_imges {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 12px;
+  }
+  .company_parners {
+    margin: 0px !important;
+  }
+
+  /* Awesome app features */
+
+  .app-feature-img {
+    height: 390px;
+  }
+
+  .hr {
+    width: 100%;
+    height: 1px;
+  }
+
+  .hero-img {
+    height: 390px;
+  }
+  .skills_div {
+    max-width: 100% !important;
+  }
+
+  /* ultimate features */
+  .ultimate-features {
+    padding: 0px !important;
+  }
+  .ultimate-features .container {
+    text-align: center;
+  }
+  .ultimate-features .features-big-img {
+    margin-top: 15px;
+  }
+  .Get_awesome_features__without_extra_charges {
+    font-size: 22px;
+  }
+
+  /* Monthly / Annualy */
+  .toggle {
+    width: 180px;
+    height: 39px;
+  }
+  .toggle input[type="checkbox"]::before {
+    font-size: 12px;
+  }
+  .toggle input[type="checkbox"]::after {
+    font-size: 12px;
+  }
+  .pricing {
+    margin: 4px auto;
+  }
+
+  /* meet client */
+  .Meet_Client_Satisfaction_by_using_product,
+  .Download_our_App_now__ {
+    font-size: 22px;
+  }
+  .download-icons figure img {
+  }
+}
