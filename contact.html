@@ -1,0 +1,248 @@
+<!-- @format -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <title>App Lab</title>
+    <style>
+      footer {
+        margin-top: 120px !important;
+      }
+
+      .hidden {
+        visibility: hidden;
+        height: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- NavBar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container">
+        <a class="navbar-brand" href="#"
+          ><img src="./images/AppLab.png" alt="logo"
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+            <a class="nav-link" href="#">Key Features</a>
+            <a class="nav-link" href="#">Pricing</a>
+            <a class="nav-link" href="#">Testimonial</a>
+            <a class="nav-link" href="#">FAQ</a>
+            <a class="nav-link" href="contact.html">Contact Us</a>
+            <div class="nav-btn">
+              <button
+                type="button"
+                class="btn btn-primary text-capitalize Rectangle_1"
+              >
+                try for free
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- NAVBAR END -->
+
+    <!-- contact us section -->
+    <section class="form my-5 py-5">
+      <div class="container">
+        <div class="row">
+          <form
+            class="row g-3 w-50 mx-auto"
+            name="contact"
+            method="POST"
+            data-netlify="true"
+            netlify-honeypot="bot-field"
+          >
+            <input type="hidden" name="form-name" value="contact" />
+            <p class="hidden">
+              <label
+                >Don’t fill this out if you’re human: <input name="bot-field"
+              /></label>
+            </p>
+
+            <div class="col-md-4">
+              <label for="validationDefault01" class="form-label"
+                >First name</label
+              >
+              <input
+                type="text"
+                class="form-control"
+                id="validationDefault01"
+                value="Mark"
+                required
+              />
+            </div>
+            <div class="col-md-4">
+              <label for="validationDefault02" class="form-label"
+                >Last name</label
+              >
+              <input
+                type="text"
+                class="form-control"
+                id="validationDefault02"
+                value="Otto"
+                required
+              />
+            </div>
+            <div class="col-md-4">
+              <label for="validationDefaultUsername" class="form-label"
+                >Username</label
+              >
+              <div class="input-group">
+                <span class="input-group-text" id="inputGroupPrepend2">@</span>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="validationDefaultUsername"
+                  aria-describedby="inputGroupPrepend2"
+                  required
+                />
+              </div>
+            </div>
+            <div class="col-md-6">
+              <label for="validationDefault03" class="form-label">City</label>
+              <input
+                type="text"
+                class="form-control"
+                id="validationDefault03"
+                required
+              />
+            </div>
+            <div class="col-md-3">
+              <label for="validationDefault04" class="form-label">State</label>
+              <select class="form-select" id="validationDefault04" required>
+                <option selected disabled value="">Choose...</option>
+                <option>...</option>
+              </select>
+            </div>
+            <div class="col-md-3">
+              <label for="validationDefault05" class="form-label">Zip</label>
+              <input
+                type="text"
+                class="form-control"
+                id="validationDefault05"
+                required
+              />
+            </div>
+            <div class="col-12">
+              <div class="form-check">
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  value=""
+                  id="invalidCheck2"
+                  required
+                />
+                <label class="form-check-label" for="invalidCheck2">
+                  Agree to terms and conditions
+                </label>
+              </div>
+            </div>
+            <div class="mb-3">
+              <label for="validationTextarea" class="form-label"
+                >Textarea</label
+              >
+              <textarea
+                class="form-control"
+                id="validationTextarea"
+                placeholder="Required example textarea"
+                required
+              ></textarea>
+              <div class="invalid-feedback">
+                Please enter a message in the textarea.
+              </div>
+            </div>
+            <div class="col-12">
+              <button class="btn btn-primary" type="submit">Submit form</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+    <!-- Footer -->
+
+    <footer
+      class="d-flex justify-content-center align-items-center flex-column h-75 py-5"
+    >
+      <figure class="footer_logo">
+        <img src="./images/logo.png" class="img-fluid" alt="logo" />
+      </figure>
+      <ul class="nav justify-content-end footer-ul">
+        <li class="nav-item">
+          <a class="nav-link" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Key Features</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="#">Pricing</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="#">Testiminial</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="#">FAQ</a>
+        </li>
+      </ul>
+      <figure class="social-icons">
+        <img
+          src="./images/social-icons.png"
+          class="img-fluid"
+          alt="social media icons"
+        />
+      </figure>
+
+      <p class="Copyright©_Arifur_Rahman_Tushar_2019__All_right">
+        Copyright© Arifur Rahman Tushar 2019. All rights reserved
+      </p>
+    </footer>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
